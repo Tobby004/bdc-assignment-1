@@ -1,0 +1,46 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1675961374813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675962016646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,9 @@\n             <a href=\"#\">Contact</a>\n     </header>\n     <br>\n     <br>\n-\n+   <img src=\"image/Cov.jpg\">\n+   <br>\n+   <h1>Hi <br> I'am <b>Covenant</b></h1>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675962248276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,7 +22,9 @@\n     <br>\n     <br>\n    <img src=\"image/Cov.jpg\">\n    <br>\n-   <h1>Hi <br> I'am <b>Covenant</b></h1>\n+   <h1>Hi <br> I'am <b>Covenant</b><br> Web Designer</h1>\n+<br>\n+<button>Contact</button>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675962292164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,7 @@\n     <br>\n    <img src=\"image/Cov.jpg\">\n    <br>\n    <h1>Hi <br> I'am <b>Covenant</b><br> Web Designer</h1>\n-<br>\n <button>Contact</button>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675967639277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n             <a href=\"#\">Contact</a>\n     </header>\n     <br>\n     <br>\n+    <div class=\"box\"></div>\n    <img src=\"image/Cov.jpg\">\n    <br>\n    <h1>Hi <br> I'am <b>Covenant</b><br> Web Designer</h1>\n <button>Contact</button>\n"
+                },
+                {
+                    "date": 1675969634961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,11 @@\n             <a href=\"#\">Contact</a>\n     </header>\n     <br>\n     <br>\n-    <div class=\"box\"></div>\n+    <div id=\"wrapper\">\n    <img src=\"image/Cov.jpg\">\n+   </div>\n    <br>\n    <h1>Hi <br> I'am <b>Covenant</b><br> Web Designer</h1>\n <button>Contact</button>\n </body>\n"
+                },
+                {
+                    "date": 1675969919035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,10 @@\n     <br>\n     <br>\n     <div id=\"wrapper\">\n    <img src=\"image/Cov.jpg\">\n-   </div>\n    <br>\n    <h1>Hi <br> I'am <b>Covenant</b><br> Web Designer</h1>\n <button>Contact</button>\n+    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675970282723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     <br>\n     <br>\n     <div id=\"wrapper\">\n    <img src=\"image/Cov.jpg\">\n-   <br>\n+\n    <h1>Hi <br> I'am <b>Covenant</b><br> Web Designer</h1>\n <button>Contact</button>\n     </div>\n </body>\n"
+                }
+            ],
+            "date": 1675961374813,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n    <link rel=\"stylesheet\" href=\"task.css\">\n</head>\n<body>\n    <header>\n        <b>\n            Covenant\n        </b>\n        <a href=\"#\">\n            Home</a>\n            <a href=\"#\">About</a>\n            <a href=\"#\">Skills</a>\n            <a href=\"#\">Works</a>\n            <a href=\"#\">Contact</a>\n    </header>\n    <br>\n    <br>\n\n</body>\n</html>"
+        }
+    ]
+}

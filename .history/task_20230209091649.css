@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    max-width: 500%;
+    display: flexbox;
+    color: blue;
+}
+header b {
+font-size: 20px;
+padding: 10px;
+margin-right: 100px;
+width: 100%;
+margin-bottom: 20px;
+justify-content: space-between;
+}
+header a {
+    margin-inline-end: 100px;
+
+}
+img{
+    width: 300px;
+    padding: 10px;
+    float: right;
+    border-radius: 50px;
+}
+h1 b {
+    color: blue;
+}
+button {
+    background-color: rgb(23, 23, 224);
+    font-size: medium;
+    display: block;
+    color: whitesmoke;
+}

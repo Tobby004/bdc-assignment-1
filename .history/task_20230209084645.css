@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+header b {
+padding: 20px;
+margin-right: 500px;
+max-width: 500%;
+}
+header a {
+    margin-inline-end: 10px;
+}
+}

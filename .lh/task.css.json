@@ -1,0 +1,150 @@
+{
+    "sourceFile": "task.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 33,
+            "patches": [
+                {
+                    "date": 1675961374814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675962016645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,4 +8,11 @@\n }\n header a {\n     margin-inline-end: 10px;\n }\n+img{\n+    width: 400Px;\n+    display: block;\n+    padding: 10px;\n+    float: right;\n+    border-radius: 20px;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675962248275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,11 @@\n     display: block;\n     padding: 10px;\n     float: right;\n     border-radius: 20px;\n+}\n+h1 b {\n+    color: blue;\n+}\n+button {\n+    background-color: blue;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675962527205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,14 @@\n * {\n     box-sizing: border-box;\n }\n+header{\n+    max-width: 500%;\n+}\n header b {\n padding: 20px;\n-margin-right: 500px;\n-max-width: 500%;\n+margin-right: 50px;\n+max-width: 50%;\n }\n header a {\n     margin-inline-end: 10px;\n }\n@@ -19,6 +22,9 @@\n h1 b {\n     color: blue;\n }\n button {\n-    background-color: blue;\n+    background-color: rgb(23, 23, 224);\n+    font-size: medium;\n+    display: block;\n+    color: whitesmoke;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675962713049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,22 @@\n     box-sizing: border-box;\n }\n header{\n     max-width: 500%;\n+    display: flexbox;\n+    color: blue;\n }\n header b {\n-padding: 20px;\n+font-size: 20px;\n+padding: 10px;\n margin-right: 50px;\n-max-width: 50%;\n+width: 100%;\n+margin-bottom: 20px;\n+justify-content: space-between;\n }\n header a {\n-    margin-inline-end: 10px;\n+    margin-inline-end: 100px;\n+\n }\n img{\n     width: 400Px;\n     display: block;\n"
+                },
+                {
+                    "date": 1675962789119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,13 @@\n     margin-inline-end: 100px;\n \n }\n img{\n-    width: 400Px;\n+    width: 300px;\n     display: block;\n     padding: 10px;\n     float: right;\n+    max-width: 500%;\n     border-radius: 20px;\n }\n h1 b {\n     color: blue;\n"
+                },
+                {
+                    "date": 1675962870223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n header b {\n font-size: 20px;\n padding: 10px;\n-margin-right: 50px;\n+margin-right: 100px;\n width: 100%;\n margin-bottom: 20px;\n justify-content: space-between;\n }\n"
+                },
+                {
+                    "date": 1675962929852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,11 +19,10 @@\n \n }\n img{\n     width: 300px;\n-    display: block;\n     padding: 10px;\n-    float: right;\n+    \n     max-width: 500%;\n     border-radius: 20px;\n }\n h1 b {\n"
+                },
+                {
+                    "date": 1675963009637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,11 +20,10 @@\n }\n img{\n     width: 300px;\n     padding: 10px;\n-    \n-    max-width: 500%;\n-    border-radius: 20px;\n+    float: right;\n+    border-radius: 50px;\n }\n h1 b {\n     color: blue;\n }\n"
+                },
+                {
+                    "date": 1675963094857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,13 +15,15 @@\n justify-content: space-between;\n }\n header a {\n     margin-inline-end: 100px;\n+    max-width: 500%;\n+    margin-inline-end: 50px;\n \n }\n img{\n-    width: 300px;\n-    padding: 10px;\n+    width: 500px;\n+    padding: 30px;\n     float: right;\n     border-radius: 50px;\n }\n h1 b {\n"
+                },
+                {
+                    "date": 1675966874366,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,11 +21,12 @@\n \n }\n img{\n     width: 500px;\n-    padding: 30px;\n+    padding: 40px;\n     float: right;\n-    border-radius: 50px;\n+    border-radius: 100px;\n+    border-width: 20%;\n }\n h1 b {\n     color: blue;\n }\n"
+                },
+                {
+                    "date": 1675967106073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,5 +34,8 @@\n     background-color: rgb(23, 23, 224);\n     font-size: medium;\n     display: block;\n     color: whitesmoke;\n+}\n+h1 {\n+    padding: 30px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675967185417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,8 +34,11 @@\n     background-color: rgb(23, 23, 224);\n     font-size: medium;\n     display: block;\n     color: whitesmoke;\n+    max-width: 500%;\n+    padding: 30px;\n }\n h1 {\n-    padding: 30px;\n+    padding: 40px;\n+    width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675967216211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,6 +39,6 @@\n     padding: 30px;\n }\n h1 {\n     padding: 40px;\n-    width: 100px;\n+    width: 10px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675967279412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,10 @@\n     background-color: rgb(23, 23, 224);\n     font-size: medium;\n     display: block;\n     color: whitesmoke;\n-    max-width: 500%;\n     padding: 30px;\n }\n h1 {\n-    padding: 40px;\n+    padding-block-end: 10px;\n     width: 10px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675967317662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n header a {\n     margin-inline-end: 100px;\n     max-width: 500%;\n     margin-inline-end: 50px;\n+    padding: 100px;\n \n }\n img{\n     width: 500px;\n"
+                },
+                {
+                    "date": 1675967396925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,15 +17,16 @@\n header a {\n     margin-inline-end: 100px;\n     max-width: 500%;\n     margin-inline-end: 50px;\n-    padding: 100px;\n+    padding: 10px;\n \n }\n img{\n-    width: 500px;\n+    width: 400px;\n     padding: 40px;\n     float: right;\n+    float: inline-start;\n     border-radius: 100px;\n     border-width: 20%;\n }\n h1 b {\n@@ -35,9 +36,10 @@\n     background-color: rgb(23, 23, 224);\n     font-size: medium;\n     display: block;\n     color: whitesmoke;\n-    padding: 30px;\n+    padding: 10px;\n+    border-radius: 35px;\n }\n h1 {\n     padding-block-end: 10px;\n     width: 10px;\n"
+                },
+                {
+                    "date": 1675967447329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,8 @@\n img{\n     width: 400px;\n     padding: 40px;\n     float: right;\n-    float: inline-start;\n     border-radius: 100px;\n     border-width: 20%;\n }\n h1 b {\n"
+                },
+                {
+                    "date": 1675967639279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n font-size: 20px;\n padding: 10px;\n margin-right: 100px;\n width: 100%;\n-margin-bottom: 20px;\n justify-content: space-between;\n }\n header a {\n     margin-inline-end: 100px;\n@@ -40,6 +39,8 @@\n     border-radius: 35px;\n }\n h1 {\n     padding-block-end: 10px;\n-    width: 10px;\n-}\n\\ No newline at end of file\n+    padding-block: 10px;\n+    stroke-width: 10px;\n+}\n+\n"
+                },
+                {
+                    "date": 1675967779443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     width: 400px;\n     padding: 40px;\n     float: right;\n     border-radius: 100px;\n-    border-width: 20%;\n+\n }\n h1 b {\n     color: blue;\n }\n"
+                },
+                {
+                    "date": 1675967900057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,11 @@\n     width: 400px;\n     padding: 40px;\n     float: right;\n     border-radius: 100px;\n+    display: flexbox;\n+    margin-left: 20px;\n+    margin-right: 50px;\n \n }\n h1 b {\n     color: blue;\n"
+                },
+                {
+                    "date": 1675967928486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,10 +25,10 @@\n     padding: 40px;\n     float: right;\n     border-radius: 100px;\n     display: flexbox;\n-    margin-left: 20px;\n-    margin-right: 50px;\n+    margin-left: 100px;\n+    margin-right: 100px;\n \n }\n h1 b {\n     color: blue;\n"
+                },
+                {
+                    "date": 1675967985675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,13 +20,12 @@\n     padding: 10px;\n \n }\n img{\n-    width: 400px;\n+    width: 100%;\n     padding: 40px;\n     float: right;\n     border-radius: 100px;\n-    display: flexbox;\n     margin-left: 100px;\n     margin-right: 100px;\n \n }\n"
+                },
+                {
+                    "date": 1675968006628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     padding: 10px;\n \n }\n img{\n-    width: 100%;\n+    width: 500px;\n     padding: 40px;\n     float: right;\n     border-radius: 100px;\n     margin-left: 100px;\n"
+                },
+                {
+                    "date": 1675968091667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n     margin-inline-end: 100px;\n     max-width: 500%;\n     margin-inline-end: 50px;\n     padding: 10px;\n+    margin-right: 25px;\n \n }\n img{\n     width: 500px;\n"
+                },
+                {
+                    "date": 1675968575733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n     width: 500px;\n     padding: 40px;\n     float: right;\n     border-radius: 100px;\n-    margin-left: 100px;\n+    margin-left: 500px;\n     margin-right: 100px;\n \n }\n h1 b {\n"
+                },
+                {
+                    "date": 1675968685681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n img{\n     width: 500px;\n     padding: 40px;\n     float: right;\n-    border-radius: 100px;\n+    border-radius: 200px;\n     margin-left: 500px;\n     margin-right: 100px;\n \n }\n"
+                },
+                {
+                    "date": 1675968741093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,10 @@\n     width: 500px;\n     padding: 40px;\n     float: right;\n     border-radius: 200px;\n-    margin-left: 500px;\n-    margin-right: 100px;\n \n+\n }\n h1 b {\n     color: blue;\n }\n"
+                },
+                {
+                    "date": 1675968787304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,12 +21,12 @@\n     margin-right: 25px;\n \n }\n img{\n-    width: 500px;\n+    width: 400px;\n     padding: 40px;\n     float: right;\n-    border-radius: 200px;\n+    border-radius: 500px;\n \n \n }\n h1 b {\n"
+                },
+                {
+                    "date": 1675969063242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n header{\n     max-width: 500%;\n     display: flexbox;\n     color: blue;\n+    margin-left: 20px;\n }\n header b {\n font-size: 20px;\n padding: 10px;\n@@ -13,9 +14,8 @@\n width: 100%;\n justify-content: space-between;\n }\n header a {\n-    margin-inline-end: 100px;\n     max-width: 500%;\n     margin-inline-end: 50px;\n     padding: 10px;\n     margin-right: 25px;\n@@ -26,9 +26,8 @@\n     padding: 40px;\n     float: right;\n     border-radius: 500px;\n \n-\n }\n h1 b {\n     color: blue;\n }\n@@ -38,11 +37,13 @@\n     display: block;\n     color: whitesmoke;\n     padding: 10px;\n     border-radius: 35px;\n+    margin-left: 30px;\n }\n h1 {\n     padding-block-end: 10px;\n     padding-block: 10px;\n     stroke-width: 10px;\n+    margin-left: 30px;\n }\n \n"
+                },
+                {
+                    "date": 1675969634967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,16 +18,17 @@\n     max-width: 500%;\n     margin-inline-end: 50px;\n     padding: 10px;\n     margin-right: 25px;\n-\n }\n-img{\n+div wrapping{\n+    max-width: 500px;\n+}\n+img {\n     width: 400px;\n     padding: 40px;\n     float: right;\n     border-radius: 500px;\n-\n }\n h1 b {\n     color: blue;\n }\n"
+                },
+                {
+                    "date": 1675969672150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     margin-inline-end: 50px;\n     padding: 10px;\n     margin-right: 25px;\n }\n-div wrapping{\n+.div {\n     max-width: 500px;\n }\n img {\n     width: 400px;\n"
+                },
+                {
+                    "date": 1675969728312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     margin-inline-end: 50px;\n     padding: 10px;\n     margin-right: 25px;\n }\n-.div {\n+. wrapper {\n     max-width: 500px;\n }\n img {\n     width: 400px;\n"
+                },
+                {
+                    "date": 1675969919037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,12 +19,9 @@\n     margin-inline-end: 50px;\n     padding: 10px;\n     margin-right: 25px;\n }\n-. wrapper {\n-    max-width: 500px;\n-}\n-img {\n+img{\n     width: 400px;\n     padding: 40px;\n     float: right;\n     border-radius: 500px;\n"
+                }
+            ],
+            "date": 1675961374814,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nheader b {\npadding: 20px;\nmargin-right: 500px;\nmax-width: 500%;\n}\nheader a {\n    margin-inline-end: 10px;\n}\n"
+        }
+    ]
+}

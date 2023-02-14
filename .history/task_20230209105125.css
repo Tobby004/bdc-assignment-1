@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    max-width: 500%;
+    display: flexbox;
+    color: blue;
+}
+header b {
+font-size: 20px;
+padding: 10px;
+margin-right: 100px;
+width: 100%;
+justify-content: space-between;
+}
+header a {
+    margin-inline-end: 100px;
+    max-width: 500%;
+    margin-inline-end: 50px;
+    padding: 10px;
+    margin-right: 25px;
+
+}
+img{
+    width: 500px;
+    padding: 40px;
+    float: right;
+    border-radius: 200px;
+    margin-left: 500px;
+    margin-right: 100px;
+
+}
+h1 b {
+    color: blue;
+}
+button {
+    background-color: rgb(23, 23, 224);
+    font-size: medium;
+    display: block;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 35px;
+}
+h1 {
+    padding-block-end: 10px;
+    padding-block: 10px;
+    stroke-width: 10px;
+}
+
